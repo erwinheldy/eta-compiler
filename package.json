@@ -1,0 +1,14 @@
+{
+  "name": "eta-compiler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/erwinheldy/eta-compiler.git",
+  "author": "Erwin Heldy G <erwin.developer@gmail.com>",
+  "license": "MIT",
+  "bin": "index.js",
+  "dependencies": {
+    "chokidar": "^3.5.1",
+    "eta": "^1.12.1",
+    "fs-extra": "^9.1.0"
+  }
+}
