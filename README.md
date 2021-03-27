@@ -1,5 +1,5 @@
 # eta-compiler
-Simple eta embedded JS template engine compiler with `--watch` support 
+Simple eta embedded JS template engine compiler with `--watch` support
 
 ## Installation
 `npm i eta-compiler -g`
@@ -9,11 +9,11 @@ Simple eta embedded JS template engine compiler with `--watch` support
 - fast, only compile changed files
 
 ## Example
-`eta-compiler --input=src/eta --data=src/ejs/data.json --output=dist/html`
+`eta-compiler --input=src/eta --data=src/eta/data.json --output=dist/html`
 
-`eta-compiler --input=src/eta --data=src/ejs/data.json --output=dist/html --watch`
+`eta-compiler --input=src/eta --data=src/eta/data.json --output=dist/html --watch`
 
-`eta-compiler --input=src/html --ext=html --data=src/ejs/data.json --output=dist/html`
+`eta-compiler --input=src/html --ext=html --data=src/eta/data.json --output=dist/html`
 
 ## Options
 - `--input=[dir]`       Input directory
@@ -23,4 +23,4 @@ Simple eta embedded JS template engine compiler with `--watch` support
 - `--watch`             Enable watch
 
 ## Notes
-- Use [_filename.ext] for partial or layout file 
+- Use [_filename.ext] for partial or layout file
