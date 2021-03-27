@@ -24,3 +24,4 @@ Simple eta embedded JS template engine compiler with `--watch` support
 
 ## Notes
 - Use [_filename.ext] for partial or layout file
+- Renamed Name of the data object. Default `it` changed to `data`
